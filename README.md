@@ -14,12 +14,6 @@ A sleek, responsive admin dashboard built with **React** and **Tailwind CSS**. T
 
 ---
 
-## 🖼️ UI Preview
-
-> *(Include a screenshot or screen recording here)*
-
----
-
 ## 🛠️ Tech Stack
 
 - ⚛️ **React** (Vite or CRA)
@@ -47,7 +41,7 @@ src/
 │
 ├── App.jsx
 └── main.jsx
-
+```
 📸 Screenshots
 
   ![App Screenshot](src/assets/images/4.png)
