@@ -4,6 +4,11 @@ A sleek, responsive admin dashboard built with **React** and **Tailwind CSS**. T
 
 ---
 
+## 🚀 Live Demo
+
+🔗 [View Live on Vercel](https://react-dashboard-ui-theta.vercel.app/)
+ 
+
 ## 🚀 Features
 
 - 🧭 **Header** with navigation icons, search bar, and logout button
