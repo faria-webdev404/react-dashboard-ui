@@ -1,4 +1,3 @@
-// components/SummaryCards.jsx
 import React from "react";
 
 const SummaryCards = () => {
@@ -9,9 +8,9 @@ const SummaryCards = () => {
   ];
 
   return (
-    <div className="grid grid-cols-3 gap-6 mb-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
       {cards.map((card, i) => (
-        <div key={i} className="bg-white p-10 rounded-xl shadow">
+        <div key={i} className="bg-white p-6 sm:p-8 lg:p-10 rounded-xl shadow w-full">
           <p className="text-gray-800 font-semibold font-montserrat text-lg mb-2">{card.label}</p>
           <h2 className={`text-2xl font-bold ${card.color}`}>{card.value}</h2>
           <div className="h-1 mt-3 bg-gray-200 rounded-full">
@@ -21,6 +20,6 @@ const SummaryCards = () => {
       ))}
     </div>
   );
-}
+};
 
 export default SummaryCards;
