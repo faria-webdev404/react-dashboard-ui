@@ -44,7 +44,7 @@ src/
 ```
 📸 Screenshots
 
-  ![App Screenshot](src/assets/images/4.png)
+  ![App Screenshot](src/assets/images/dashboard.png)
 
 📑 License
 This project is open-source and available under the MIT License
